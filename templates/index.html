@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Boolean Retrieval</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='stylesheets/display_style.css') }}" type = "text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <body class="w3-white">
+    <header class="w3-container w3-center header w3-black" style="padding:128px 16px">
+      <h1 class="w3-jumbo w3-text-white w3-hide-small"><b>Boolean Retrieval<br>Model</b></h1>
+    </header>
+    
+    <div class="w3-container">
+      <div class="w3-display-middle">
+        <div class="d-flex justify-content-center">
+          <form method="POST" action="{{ url_for('upload') }}" class="searchbar">
+            <input type="text" class="search_input" placeholder="Search here" name="query"/>
+            <button class ="search_icon" style="margin-top: -40px;"type="submit"><i class="fas fa-search"></i></button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <footer class="w3-center w3-padding-64">
+      <div class="w3-large w3-padding-32">
+        <p class="w3-xlarge"><br><br></p>
+        <a href="#" style="color: blue; text-decoration: none; "><strong>18K-0223 Aftab Ahmed</strong><br> </a>
+     </div>
+    </footer>
+  </body>
+</html>

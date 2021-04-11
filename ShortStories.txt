@@ -1,0 +1,29 @@
+Query 1: beard
+Result-set: 1,2,4,6,11,20,21,23,25,26,31,34,44
+
+Query 2: passenger
+Result-set: 2,5,19,41,43
+
+Query 3: permission and possible 
+Result-set: 45
+
+Query 4: power and play 
+Result-set: 2
+
+Query 5: ladies and gentleman 
+Result-set: 2,16,26,36,48 
+
+Query 6: strange and land and play
+Result-set: 49
+
+Query 7: god and man and love 
+Result-set: 1,2,4,7,16,19,22,23,24,25,26,28,38,46
+
+Query 8 : smiling face /3
+Result-set: 11
+
+Query 9 : filling room /1
+Result-set: 21
+
+Query 10: not pleaser and not fever 
+Result-set: 3,4,5,6,7,8,9,10,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,39,40,41,42,44,45,46,47,48,49,50
